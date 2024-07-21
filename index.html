@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namanganliklar 24</title>
+    <link rel="stylesheet" href="/css/shared.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__left-item">
+          <a href="index.html" class="header__logo">
+            <img src="/assets/images/site-logo.svg" alt="site logo" />
+          </a>
+          <button class="header__menu">
+            <img
+              src="/assets/images/interface.png"
+              alt="hamburger menu"
+              width="35"
+            />
+          </button>
+        </div>
+
+        <div class="header__right-item">
+          <div class="hedaer__currency">
+            <p><span>$</span> 10137.2</p>
+            <p><span>P</span> 138.26</p>
+            <p><span>E</span> 10988.72</p>
+          </div>
+          <div class="header__right__box">
+            <label for="search" class="header__search">
+              <img src="/assets/images/search.svg" alt="search" />
+              <input type="text" id="search" />
+            </label>
+            <span>
+              <img src="/assets/images/ru.svg" alt="ru" />
+              РУ
+            </span>
+            <button class="header__subscribe-btn">
+              <img src="/assets/images/telegram.png" alt="telegram icon" />
+              <span>Подписатся</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <nav class="header__nav container"></nav>
+      <div class="container">
+        <img
+          class="header__banner"
+          src="/assets/images/nrg-banner.jpeg"
+          alt="banner"
+        />
+      </div>
+    </header>
+    <div class="modal">
+      <div class="modal__body">
+        <button class="modal__close">
+          <img src="/assets/images/modal-close.png" alt="close modal" />
+        </button>
+        <p class="modal__title">
+          Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых
+          последних новостей:
+        </p>
+        <a
+          href="https://t.me/ilhamovich_010"
+          target="_blank"
+          class="modal__subscribe-btn"
+        >
+          <img src="/assets/images/telegram.png" alt="telegram icon" />
+          Подписатся
+        </a>
+      </div>
+    </div>
+    <main>
+      <section class="covid-statistics container">
+        <div>
+          <img src="/assets/images/icon-covid.png" alt="icon covid" />
+          <h1 class="covid-statistics__title-1">
+            Коронавирус COVID-19 в Узбекистане
+          </h1>
+        </div>
+        <div>
+          <img src="/assets/images/icon-infected.svg" alt="infected" />
+          <div>
+            <p class="covid-statistics__title-2">Инфицированы</p>
+            <span>2753</span>
+          </div>
+        </div>
+        <div>
+          <img src="/assets/images/icon-recovered.svg" alt="recorved" />
+          <div>
+            <p class="covid-statistics__title-3">Выздоровели</p>
+            <span> 2245 </span>
+          </div>
+        </div>
+        <div>
+          <img src="/assets/images/icon-dead.svg" alt="deaded" />
+          <div>
+            <p class="covid-statistics__title-4">Умерли</p>
+            <span>12</span>
+          </div>
+        </div>
+      </section>
+      <section class="news container">
+        <div class="news__container">
+          <div class="news__card">
+            <img
+              class="news__card__img"
+              src="/assets/images/img-1.jpeg"
+              alt="desc"
+            />
+            <h2>
+              Мирзиёев рассказал, зачем было построено Сардобинское
+              водохранилище
+            </h2>
+            <span>05:28 / 16.05.2020</span>
+          </div>
+          <div class="news__card">
+            <img
+              class="news__card__img"
+              src="/assets/images/img-2.jpeg"
+              alt="desc"
+            />
+            <h2>Карантин в Узбекистане продлен до 1 июня</h2>
+            <span>05:28 / 16.05.2020</span>
+          </div>
+          <div class="news__card">
+            <img
+              class="news__card__img"
+              src="/assets/images/img-3.jpeg"
+              alt="desc"
+            />
+            <h2>Обмелевшая Сардоба: стихия или человеческий фактор?</h2>
+            <span>05:28 / 16.05.2020</span>
+          </div>
+          <div class="news__card">
+            <img
+              class="news__card__img"
+              src="/assets/images/img-4.jpeg"
+              alt="desc"
+            />
+            <h2>
+              Следствие проверяет четыре версии прорыва Сардобинской плотины
+            </h2>
+            <span>05:28 / 16.05.2020</span>
+          </div>
+          <div class="news__card">
+            <img
+              class="news__card__img"
+              src="/assets/images/img-5.jpeg"
+              alt="desc"
+            />
+            <h2>Выявлено еще 7 случаев коронавируса</h2>
+            <span>05:28 / 16.05.2020</span>
+          </div>
+          <div class="news__card">
+            <img
+              class="news__card__img"
+              src="/assets/images/img-6.jpeg"
+              alt="desc"
+            />
+            <h2>Итоги второго месяца карантина</h2>
+            <span>05:28 / 16.05.2020</span>
+          </div>
+        </div>
+        <div class="news__notification">
+          <div class="news__notification__left-item">
+            <img
+              src="/assets/images/notification-icon.png"
+              alt="notification"
+            />
+            <h2>Хотите узнать новости первыми? подключите уведомления!</h2>
+          </div>
+          <button class="news__notification__btn">Включит уведомления!</button>
+        </div>
+      </section>
+      <section class="latest-news container">
+        <div class="latest-news__container">
+          <div class="latest-news__left-item">
+            <!-- <h2 class="latest-news__left-item__title">Последние новости</h2> -->
+            <!-- <div class="latest-news__card">
+              <img
+                class="latest-news__card__img"
+                src="/assets/images/news-1.png"
+                alt="desc"
+              />
+              <div>
+                <h3 class="latest-news__card__title">
+                  По факту прорыва Сардобинского водохранилища возбуждено
+                  уголовное дело
+                </h3>
+                <p class="latest-news__card__desc">
+                  После прорыва дамбы Сардобинского водохранилища возбуждено
+                  уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                  Узбекистана.
+                </p>
+                <span class="latest-news__card__date">
+                  <img src="/assets/images/date-icon.png" alt="date" />11:31 /
+                  15.05.2020
+                </span>
+              </div>
+            </div>
+            <div class="latest-news__card">
+              <img
+                class="latest-news__card__img"
+                src="/assets/images/news-1.png"
+                alt="desc"
+              />
+              <div>
+                <h3 class="latest-news__card__title">
+                  По факту прорыва Сардобинского водохранилища возбуждено
+                  уголовное дело
+                </h3>
+                <p class="latest-news__card__desc">
+                  После прорыва дамбы Сардобинского водохранилища возбуждено
+                  уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                  Узбекистана.
+                </p>
+                <span class="latest-news__card__date">
+                  <img src="/assets/images/date-icon.png" alt="date" />11:31 /
+                  15.05.2020
+                </span>
+              </div>
+            </div>
+            <div class="latest-news__card">
+              <img
+                class="latest-news__card__img"
+                src="/assets/images/news-1.png"
+                alt="desc"
+              />
+              <div>
+                <h3 class="latest-news__card__title">
+                  По факту прорыва Сардобинского водохранилища возбуждено
+                  уголовное дело
+                </h3>
+                <p class="latest-news__card__desc">
+                  После прорыва дамбы Сардобинского водохранилища возбуждено
+                  уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                  Узбекистана.
+                </p>
+                <span class="latest-news__card__date">
+                  <img src="/assets/images/date-icon.png" alt="date" />11:31 /
+                  15.05.2020
+                </span>
+              </div>
+            </div>
+            <div class="latest-news__card">
+              <img
+                class="latest-news__card__img"
+                src="/assets/images/news-1.png"
+                alt="desc"
+              />
+              <div>
+                <h3 class="latest-news__card__title">
+                  По факту прорыва Сардобинского водохранилища возбуждено
+                  уголовное дело
+                </h3>
+                <p class="latest-news__card__desc">
+                  После прорыва дамбы Сардобинского водохранилища возбуждено
+                  уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                  Узбекистана.
+                </p>
+                <span class="latest-news__card__date">
+                  <img src="/assets/images/date-icon.png" alt="date" />11:31 /
+                  15.05.2020
+                </span>
+              </div>
+            </div>
+            <div class="latest-news__card">
+              <img
+                class="latest-news__card__img"
+                src="/assets/images/news-1.png"
+                alt="desc"
+              />
+              <div>
+                <h3 class="latest-news__card__title">
+                  По факту прорыва Сардобинского водохранилища возбуждено
+                  уголовное дело
+                </h3>
+                <p class="latest-news__card__desc">
+                  После прорыва дамбы Сардобинского водохранилища возбуждено
+                  уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                  Узбекистана.
+                </p>
+                <span class="latest-news__card__date">
+                  <img src="/assets/images/date-icon.png" alt="date" />11:31 /
+                  15.05.2020
+                </span>
+              </div>
+            </div>
+            <div class="latest-news__card">
+              <img
+                class="latest-news__card__img"
+                src="/assets/images/news-1.png"
+                alt="desc"
+              />
+              <div>
+                <h3 class="latest-news__card__title">
+                  По факту прорыва Сардобинского водохранилища возбуждено
+                  уголовное дело
+                </h3>
+                <p class="latest-news__card__desc">
+                  После прорыва дамбы Сардобинского водохранилища возбуждено
+                  уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                  Узбекистана.
+                </p>
+                <span class="latest-news__card__date">
+                  <img src="/assets/images/date-icon.png" alt="date" />11:31 /
+                  15.05.2020
+                </span>
+              </div>
+            </div> -->
+          </div>
+
+          <div class="latest-news__right-item">
+            <div>
+              <h2 class="latest-news__right-item__title">Cамые популярные новости</h2>
+              <div class="popular-news__card">
+              <p class="popular-news__card__desc">
+                По факту прорыва Сардобинского водохранилища возбуждено
+                уголовное дело
+              </p>
+              <span class="popular-news__card__date">11:31 / 15.05.2020</span>
+              <span class="popular-news__card__line"></span>
+            </div>
+            <div class="popular-news__card">
+              <p class="popular-news__card__desc">
+                По факту прорыва Сардобинского водохранилища возбуждено
+                уголовное дело
+              </p>
+              <span class="popular-news__card__date">11:31 / 15.05.2020</span>
+              <span class="popular-news__card__line"></span>
+            </div>
+            <div class="popular-news__card">
+              <p class="popular-news__card__desc">
+                По факту прорыва Сардобинского водохранилища возбуждено
+                уголовное дело
+              </p>
+              <span class="popular-news__card__date">11:31 / 15.05.2020</span>
+              <span class="popular-news__card__line"></span>
+            </div>
+            <div class="popular-news__card">
+              <p class="popular-news__card__desc">
+                По факту прорыва Сардобинского водохранилища возбуждено
+                уголовное дело
+              </p>
+              <span class="popular-news__card__date">11:31 / 15.05.2020</span>
+              <span class="popular-news__card__line"></span>
+            </div>
+            </div>
+            <img class="advertising" src="/assets/images/advertising.png" alt="advertising">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__box">
+          <a class="footer__link" href="index.html">NAMANGANLIKLAR24</a>
+          <div>
+            <h2>
+              Подписывайтесь на наш канал в Telegram и будьте всегда в курсе
+              самых последних новостей:
+            </h2>
+            <a
+              class="footer__subscribe"
+              href="https://t.me/ilhamovich_010"
+              target="_blank"
+            >
+              <img src="/assets/images/telegram-2.png" alt="telegram icon" />
+              Подписатся
+            </a>
+          </div>
+        </div>
+        <div class="footer__container">
+          <div>
+            <p class="footer__desc">О сайте</p>
+            <p class="footer__desc">
+              Воспроизводство, копирование, тиражирование, распростране ние и
+              иное использование информации с сайта «NAMANGANLIKLAR24.UZ»
+              возможно только с предварительного письменного разрешения
+              редакции.
+            </p>
+          </div>
+          <div>
+            <a href="#" class="footer__box__link">Информация о сайте</a>
+            <a href="/pages/contact.html" class="footer__box__link">Напишите нам </a>
+            <a href="#" class="footer__box__link">Реклама</a>
+            <a href="#" class="footer__box__link">Прислать новость</a>
+          </div>
+          <div>
+            <a href="#" class="footer__box__link">Использование материалов </a>
+            <a href="#" class="footer__box__link">Темы дня </a>
+            <a href="#" class="footer__box__link">Наша команда</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/categories-data.js"></script>
+    <script src="/js/news-data.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
