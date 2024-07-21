@@ -27,7 +27,7 @@ const getNewsCard = ({date, title, desc, img, }) => {
 
 
 const getNews = () =>{
-    newsData.map(el =>{
+    newsData.slice(0,-3).map(el =>{
         latestNews.innerHTML += getNewsCard(el)
     })
 }

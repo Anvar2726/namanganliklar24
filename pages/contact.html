@@ -1,11 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namanganliklar 24</title>
+    <link rel="stylesheet" href="/css/shared.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__left-item">
+          <a href="/index.html" class="header__logo">
+            <img src="/assets/images/site-logo.svg" alt="site logo" />
+          </a>
+          <button class="header__menu">
+            <img
+              src="/assets/images/interface.png"
+              alt="hamburger menu"
+              width="35"
+            />
+          </button>
+        </div>
+
+        <div class="header__right-item">
+          <div class="hedaer__currency">
+            <p><span>$</span> 10137.2</p>
+            <p><span>P</span> 138.26</p>
+            <p><span>E</span> 10988.72</p>
+          </div>
+          <div class="header__right__box">
+            <label for="search" class="header__search">
+              <img src="/assets/images/search.svg" alt="search" />
+              <input type="text" id="search" />
+            </label>
+            <span>
+              <img src="/assets/images/ru.svg" alt="ru" />
+              РУ
+            </span>
+            <button class="header__subscribe-btn">
+              <img src="/assets/images/telegram.png" alt="telegram icon" />
+              <span>Подписатся</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <nav class="header__nav"></nav>
+      <div class="container">
+        <img
+          class="header__banner"
+          src="/assets/images/nrg-banner.jpeg"
+          alt="banner"
+        />
+      </div>
+    </header>
+    <div class="modal">
+      <div class="modal__body">
+        <button class="modal__close">
+          <img src="/assets/images/modal-close.png" alt="close modal" />
+        </button>
+        <p class="modal__title">
+          Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых
+          последних новостей:
+        </p>
+        <a
+          href="https://t.me/ilhamovich_010"
+          target="_blank"
+          class="modal__subscribe-btn"
+        >
+          <img src="/assets/images/telegram.png" alt="telegram icon" />
+          Подписатся
+        </a>
+      </div>
+    </div>
+    <main>
+      <section class="contact container">
+        <div class="contact__left">
+          <h2 class="contact__title">Напишите нам</h2>
+          <form class="contact__form">
+            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder="Электронная почта" />
+            <input type="text" placeholder="Номер телефона" />
+            <input type="text" placeholder="Тема" />
+            <textarea cols="30" rows="10" placeholder="Текст"></textarea>
+            <input type="file" class="contact__form__file" />
+            <input
+              type="password"
+              placeholder="Код"
+              class="contact__form__password"
+            />
+            <button type="submit">Отправить</button>
+          </form>
+        </div>
+        <div class="contact__right">
+          <h2 class="contact__right__title">NAMANGANLIKLAR24</h2>
+          <div>
+            <p>Электронная почта</p>
+            <a href="mailto:info@namanganliklar24.uz" class="contact__email-link">info@namanganliklar24.uz</a>
+          </div>
+          <div>
+            <p>Социальные сети</p>
+            <div>
+              <a target="_blank" href="https://facebook.com">
+                <img src="/assets/images/facebook.png" alt="facebook" />
+              </a>
+              <a target="_blank" href="https://twitter.com">
+                <img src="/assets/images/twitter.png" alt="twitter" />
+              </a>
+              <a target="_blank" href="https://ok.ru">
+                <img src="/assets/images/ok-ru.png" alt="ok" />
+              </a>
+            </div>
+          </div>
+          <div>
+            <p>Телеграм канал</p>
+            <a href="https://t.me/ilhamovich_010" class="contact__telegram">
+              <img src="/assets/images/telegram.png" alt="telegram icon" />
+              Подписатся
+            </a>
+          </div>
+          <div>
+            <p>Мобильная приложение</p>
+            <div class="apps__box">
+              <a href="#">
+                <img src="/assets/images/apple-logo.png" alt="apple" />
+                <span>
+                  <span>Google play</span>
+                  <span>yuklab oling</span>
+                </span>
+              </a>
+              <a href="#">
+                <img src="/assets/images/apple-logo.png" alt="apple" />
+                <span>
+                  <span>Google play</span>
+                  <span>yuklab oling</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__box">
+          <a class="footer__link" href="/index.html">NAMANGANLIKLAR24</a>
+          <div>
+            <h2>
+              Подписывайтесь на наш канал в Telegram и будьте всегда в курсе
+              самых последних новостей:
+            </h2>
+            <a
+              class="footer__subscribe"
+              href="https://t.me/ilhamovich_010"
+              target="_blank"
+            >
+              <img src="/assets/images/telegram-2.png" alt="telegram icon" />
+              Подписатся
+            </a>
+          </div>
+        </div>
+        <div class="footer__container">
+          <div>
+            <p class="footer__desc">О сайте</p>
+            <p class="footer__desc">
+              Воспроизводство, копирование, тиражирование, распростране ние и
+              иное использование информации с сайта «NAMANGANLIKLAR24.UZ»
+              возможно только с предварительного письменного разрешения
+              редакции.
+            </p>
+          </div>
+          <div>
+            <a href="#" class="footer__box__link">Информация о сайте</a>
+            <a href="/pages/contact.html" class="footer__box__link"
+              >Напишите нам
+            </a>
+            <a href="#" class="footer__box__link">Реклама</a>
+            <a href="#" class="footer__box__link">Прислать новость</a>
+          </div>
+          <div>
+            <a href="#" class="footer__box__link">Использование материалов </a>
+            <a href="#" class="footer__box__link">Темы дня </a>
+            <a href="#" class="footer__box__link">Наша команда</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/categories-data.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
