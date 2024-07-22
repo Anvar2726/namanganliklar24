@@ -1,15 +1,16 @@
-const latestNews = document.querySelector(".latest-news__left-item")
+const latestNews = document.querySelector(".latest-news__left-item");
 
-latestNews.innerHTML = `<h2 class="latest-news__left-item__title">Последние новости</h2>`
+latestNews.innerHTML = `<h2 class="latest-news__left-item__title">Последние новости</h2>`;
 
-const getNewsCard = ({date, title, desc, img, }) => {
-    return `
+const getNewsCard = ({ date, title, desc, img }) => {
+  return `
     <div class="latest-news__card" >
-        <img
-        class="latest-news__card__img"
-        src="${img}"
-        alt="${title}"
-        />
+        <a href="/pages/news.html" class="latest-news__card__img">
+            <img
+            src="${img}"
+            alt="${title}"
+            />
+        </a>
         <div>
         <h3 class="latest-news__card__title">
            ${title}
@@ -22,13 +23,14 @@ const getNewsCard = ({date, title, desc, img, }) => {
         </span>
         </div>
     </div>
-    `
-}
+    `;
+};
 
+const getNews = () => {
+  newsData.slice(0, -3).map((el) => {
+    latestNews.innerHTML += getNewsCard(el);
+  });
+};
+getNews();
 
-const getNews = () =>{
-    newsData.slice(0,-3).map(el =>{
-        latestNews.innerHTML += getNewsCard(el)
-    })
-}
-getNews()
+latestNews.innerHTML += `<button class="more__news-btn">Больше новостей</button>`
